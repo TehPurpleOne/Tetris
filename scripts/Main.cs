@@ -21,7 +21,7 @@ public class Main : Node2D {
     private int clearStep = 0;
 
     private List<string> tetrominoPaths = new List<string>();
-    private List<int> linesToCLear = new List<int>();
+    private List<int> linesToClear = new List<int>();
 
     public override void _Ready() {
         back = (TileMap)GetNode("Back");
@@ -47,16 +47,18 @@ public class Main : Node2D {
             
             case States.CLEAR:
                 if(moveTicker == 0) {
-                    for(int i = 0; i < linesToCLear.Count; i++) {
-                        int lineY = linesToCLear[i];
+                    for(int i = 0; i < linesToClear.Count; i++) {
+                        int a = 16 - clearStep;
+                        int b = 17 + clearStep;
 
-                        switch(clearStep) {
-                            case 0:
-                                
-                                break;
-                        }
+                        back.SetCellv(new Vector2(a, linesToClear[i]), -1);
+                        back.SetCellv(new Vector2(b, linesToClear[i]), -1);
                     }
+                    clearStep++;
                 }
+
+                moveTicker++;
+                moveTicker = Mathf.Wrap(moveTicker, 0, 4);
                 break;
         }
     }
@@ -83,6 +85,15 @@ public class Main : Node2D {
             
             case States.MOVE:
                 return States.TICKDOWN;
+
+            case States.LINECHECK:
+                if(linesToClear.Count > 0) return States.CLEAR; else return States.NEXT;
+        
+            case States.CLEAR:
+                if(clearStep == 5) {
+                    return States.DROP;
+                }
+                break;
         }
 
         return States.NULL;
@@ -91,6 +102,8 @@ public class Main : Node2D {
     private void setState(States newState) {
         previousState = currentState;
         currentState = newState;
+
+        GD.Print("Entering state: ",newState);
 
         enterState(currentState, previousState);
         exitState(previousState, currentState);
@@ -170,8 +183,7 @@ public class Main : Node2D {
 
                     if(usedTiles == 10) {
                         // Store the Y coordinates
-                        linesToCLear.Add((int)startPos.y + i);
-                        GD.Print("Clear line ",startPos.y + i);
+                        linesToClear.Add((int)startPos.y + i);
                     }
                 }
                 break;
@@ -180,10 +192,28 @@ public class Main : Node2D {
                 moveTicker = 0;
                 clearStep = 0;
                 break;
+            
+            case States.DROP:
+                for(int i = 0; i < linesToClear.Count; i++) {
+                    for(int j = back.GetUsedCells().Count - 1; j > -1; j--) {
+                        Vector2 tilePos = (Vector2)back.GetUsedCells()[j];
+                        int tileID = back.GetCellv(tilePos);
+
+                        if(tilePos.y < linesToClear[i]) {
+                            back.SetCellv(tilePos + Vector2.Down, tileID);
+                            back.SetCellv(tilePos, -1);
+                        }
+                    }
+                }
+                break;
         }
     }
 
     private void exitState(States oldState, States newState) {
-        
+        /* switch(oldState) {
+            case States.CLEAR:
+                linesToCLear.Clear();
+                break;
+        } */
     }
 }
