@@ -1,0 +1,9 @@
+C:\Users\nineb\Documents\Projects\Tetris\.mono\temp\bin\Debug\My Tetris.dll
+C:\Users\nineb\Documents\Projects\Tetris\.mono\temp\bin\Debug\My Tetris.pdb
+C:\Users\nineb\Documents\Projects\Tetris\.mono\temp\obj\Debug\My Tetris.csproj.AssemblyReference.cache
+C:\Users\nineb\Documents\Projects\Tetris\.mono\temp\obj\Debug\My Tetris.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nineb\Documents\Projects\Tetris\.mono\temp\obj\Debug\My Tetris.AssemblyInfoInputs.cache
+C:\Users\nineb\Documents\Projects\Tetris\.mono\temp\obj\Debug\My Tetris.AssemblyInfo.cs
+C:\Users\nineb\Documents\Projects\Tetris\.mono\temp\obj\Debug\My Tetris.csproj.CoreCompileInputs.cache
+C:\Users\nineb\Documents\Projects\Tetris\.mono\temp\obj\Debug\My Tetris.dll
+C:\Users\nineb\Documents\Projects\Tetris\.mono\temp\obj\Debug\My Tetris.pdb
