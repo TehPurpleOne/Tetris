@@ -7,18 +7,28 @@
 script = ExtResource( 2 )
 maxRotations = 2
 
-[node name="00" type="Sprite" parent="."]
+[node name="Control" type="Control" parent="."]
+margin_left = 16.0
+margin_top = 16.0
+margin_right = 16.0
+margin_bottom = 16.0
+
+[node name="00" type="Sprite" parent="Control"]
+position = Vector2( 4, -12 )
 texture = ExtResource( 1 )
 hframes = 8
 
-[node name="01" type="Sprite" parent="."]
+[node name="01" type="Sprite" parent="Control"]
+position = Vector2( 4, -4 )
 texture = ExtResource( 1 )
 hframes = 8
 
-[node name="02" type="Sprite" parent="."]
+[node name="02" type="Sprite" parent="Control"]
+position = Vector2( 4, 4 )
 texture = ExtResource( 1 )
 hframes = 8
 
-[node name="03" type="Sprite" parent="."]
+[node name="03" type="Sprite" parent="Control"]
+position = Vector2( 4, 12 )
 texture = ExtResource( 1 )
 hframes = 8
