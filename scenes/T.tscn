@@ -3,7 +3,7 @@
 [ext_resource path="res://assets/tilesets/tiles.png" type="Texture" id=1]
 [ext_resource path="res://scripts/Tetrominos.cs" type="Script" id=2]
 
-[node name="Z" type="Node2D"]
+[node name="T" type="Node2D"]
 script = ExtResource( 2 )
 
 [node name="Control" type="Control" parent="."]

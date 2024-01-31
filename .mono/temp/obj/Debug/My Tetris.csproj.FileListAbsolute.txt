@@ -16,3 +16,12 @@ C:\Users\GALC\Documents\stuff\projects\Tetris\.mono\temp\obj\Debug\My Tetris.Ass
 C:\Users\GALC\Documents\stuff\projects\Tetris\.mono\temp\obj\Debug\My Tetris.csproj.CoreCompileInputs.cache
 C:\Users\GALC\Documents\stuff\projects\Tetris\.mono\temp\obj\Debug\My Tetris.dll
 C:\Users\GALC\Documents\stuff\projects\Tetris\.mono\temp\obj\Debug\My Tetris.pdb
+C:\stuff\projects\Tetris\.mono\temp\bin\Debug\My Tetris.dll
+C:\stuff\projects\Tetris\.mono\temp\bin\Debug\My Tetris.pdb
+C:\stuff\projects\Tetris\.mono\temp\obj\Debug\My Tetris.csproj.AssemblyReference.cache
+C:\stuff\projects\Tetris\.mono\temp\obj\Debug\My Tetris.GeneratedMSBuildEditorConfig.editorconfig
+C:\stuff\projects\Tetris\.mono\temp\obj\Debug\My Tetris.AssemblyInfoInputs.cache
+C:\stuff\projects\Tetris\.mono\temp\obj\Debug\My Tetris.AssemblyInfo.cs
+C:\stuff\projects\Tetris\.mono\temp\obj\Debug\My Tetris.csproj.CoreCompileInputs.cache
+C:\stuff\projects\Tetris\.mono\temp\obj\Debug\My Tetris.dll
+C:\stuff\projects\Tetris\.mono\temp\obj\Debug\My Tetris.pdb

@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "vEJCvIrGvuNjO2olHp8vOm0wagky6sbXy/4xHlZvVAoW3eO42tBD70EhdTCYYOLo1t8iYE5hh7zJCrl5p237yA==",
+  "dgSpecHash": "10nzMrFlW2w3hwLoCqFCXj+YMcBl7Wnu99hW0i6jAIDgN9i0jFPZA0+UR2bajWIYCwjIoMnJTsWH4pqyfsPkwg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nineb\\Documents\\Projects\\Tetris\\My Tetris.csproj",
+  "projectFilePath": "C:\\stuff\\projects\\Tetris\\My Tetris.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\nineb\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
-    "C:\\Users\\nineb\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.3\\microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net472\\1.0.3\\microsoft.netframework.referenceassemblies.net472.1.0.3.nupkg.sha512"
   ],
   "logs": []
 }
