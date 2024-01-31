@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\GALC\\Documents\\stuff\\projects\\Tetris\\My Tetris.csproj": {}
+    "C:\\Users\\nineb\\Documents\\Projects\\Tetris\\My Tetris.csproj": {}
   },
   "projects": {
-    "C:\\Users\\GALC\\Documents\\stuff\\projects\\Tetris\\My Tetris.csproj": {
+    "C:\\Users\\nineb\\Documents\\Projects\\Tetris\\My Tetris.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\GALC\\Documents\\stuff\\projects\\Tetris\\My Tetris.csproj",
+        "projectUniqueName": "C:\\Users\\nineb\\Documents\\Projects\\Tetris\\My Tetris.csproj",
         "projectName": "My Tetris",
-        "projectPath": "C:\\Users\\GALC\\Documents\\stuff\\projects\\Tetris\\My Tetris.csproj",
-        "packagesPath": "C:\\Users\\GALC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\GALC\\Documents\\stuff\\projects\\Tetris\\.mono\\temp\\obj\\",
+        "projectPath": "C:\\Users\\nineb\\Documents\\Projects\\Tetris\\My Tetris.csproj",
+        "packagesPath": "C:\\Users\\nineb\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nineb\\Documents\\Projects\\Tetris\\.mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\GALC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\nineb\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net472"
@@ -37,7 +37,15 @@
       "frameworks": {
         "net472": {
           "targetAlias": "net472",
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     }
